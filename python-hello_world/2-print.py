@@ -1,1 +1,1 @@
-print(f"Programming is like building a multilingual puzzle")
+print("\wq"Programming is like building a multilingual puzzle")
