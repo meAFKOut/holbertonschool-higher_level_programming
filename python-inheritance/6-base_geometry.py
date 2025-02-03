@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""This class containts class named BaseGeometry""
+""This clasass named BaseGeometry""
 
 	class BaseGeometry
 	  ""
