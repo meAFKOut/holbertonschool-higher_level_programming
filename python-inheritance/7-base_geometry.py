@@ -24,7 +24,9 @@ class BaseGeometry:
 
     def integer_validator(self, name, value):
         """
-        This functioners
+        This function validates the value
+
+        Parameters
         ----------
             name : str
             value : int
