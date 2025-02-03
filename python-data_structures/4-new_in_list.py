@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-def new_in_list(my_list, idx, element):
-    if idx >= len(my_list) or idx < 0:
-        return my_list
-    new_list = my_list[:]
-    new_list[idx] = element
+def new_in_list(lost, pon, kol):
+    if pon >= len(lost) or pon < 0:
+        ret lost
+    lost = lost[:]
+    lost[pon] = kol
     return new_list
