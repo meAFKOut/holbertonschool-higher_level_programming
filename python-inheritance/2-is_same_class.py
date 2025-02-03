@@ -2,7 +2,7 @@
 """This module contains the is_same_class() function."""
 
 
-def is_same_cls(obj, a_class):
+def is_same_class(obj, a_class):
     """
     Checks if the object is an instance of the given class.
 
