@@ -30,4 +30,29 @@ class Circle(Shape):
 
     def perimeter(self):
         """Return the perimeter of the circle."""
-        return 2 * pi * self.
+        return 2 * pi * self.radius
+
+
+class Rectangle(Shape):
+    """Represents a rectangle with width and height."""
+
+    def __init__(self, width, height):
+        """Initialize the rectangle with width and height."""
+        self.width = width
+        self.height = height
+
+    def area(self):
+        """Return the area of the rectangle."""
+        return self.height * self.width
+
+    def perimeter(self):
+        """Return the perimeter of the rectangle."""
+        return 2 * (self.width + self.height)
+
+
+def shape_info(Shape):
+    """Print the area and perimeter of a shape."""
+    a = Shape.area()
+    p = Shape.perimeter()
+    print("Area: {}".format(a))
+    print("Perimeter: {}".format(p))
